@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div{
+width:200px;
+height:200px;
+background-color:green;
+margin:10px;
+position:relative;
+<!-- animation: moves; -->
+animation-duration:3s;
+animation-iteration-count:infinite;
+box-shadow:10px 10px 5px 10px lightgreen;
+}
+.div1{
+animation-timing-function: linear;
+}
+.div2{
+animation-timing-function: ease;
+}
+.div3{
+animation-timing-function: ease-in;
+}
+.div4{
+animation-timing-function: ease-out;
+}
+.div5{
+animation-timing-function: ease-in-out;
+}
+@keyframes moves{
+from{left:0px;}
+to{left: 500px;}
+}
+h1{
+text-shadow: 2px 1px green;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Hello to text effect</h1>
+
+<div>
+This is a div
+</div>
+<!-- <div class ="div1"> -->
+<!-- linear  -->
+<!-- </div> -->
+<!-- <div class ="div2"> -->
+<!-- ease -->
+<!-- </div> -->
+<!-- <div class ="div3"> -->
+<!-- ease in  -->
+<!-- </div> -->
+<!-- <div class ="div4"> -->
+<!-- ease out</div> -->
+<!-- <div class ="div5"> -->
+<!-- ease in out</div> -->
+</body>
+</html>

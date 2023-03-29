@@ -1,0 +1,51 @@
+*{
+font-family:arial
+}
+#p1{
+color: yellow;
+background-color:black;
+}
+#p2{
+color: red
+}
+.p3{
+color:green
+}
+h2{
+color: blue
+}
+h3,h2,#p1{
+text-align:center;
+}
+body{
+	background-image: url("images/bg1.png");
+	background-repeat:no-repeat;
+}
+/* 1. background-color */
+/* 2. text-align */
+/* 3. color */
+/* 4. font-family */
+
+/* id, class, tag, multiple selectors */
+
+/* inline, internal and external CSS */
+
+/* Next class */
+/* `````````````` */
+/* background images */
+/* borders */
+/* margins */
+/* padding */
+/* height and width */
+/* text and fonts */
+/* links */
+/* list */
+/* tables */
+/* images */
+/* forms */
+/* display */
+/* max-width */
+/* position */
+/* navigation bar */
+/* Dropdowns */
+

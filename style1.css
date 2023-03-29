@@ -1,0 +1,13 @@
+h1,p{
+color: red;
+border:2px solid black;
+padding:5px;
+margin: 5px;
+background-color:lightgreen;
+}
+p,h1{
+	font-size:25px;
+	text-align:center;
+	font-weight:bold;
+	font-style:italic;
+}

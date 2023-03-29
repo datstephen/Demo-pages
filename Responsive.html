@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta  name= "viewport" content="width=device-width,initial-scale = 1.0" >
+
+<style>
+*{
+box-sizing:border-box;
+}
+.Header{
+padding: 10px;
+background-color:pink;
+}
+
+.Side{
+width:30%;
+float:left;
+
+}
+ul{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+li{
+background-color:royalblue;
+padding:5px;
+margin:8px;
+}
+li:hover{
+background-color:darkblue;
+color:white;
+}
+
+.Main{
+width:70%;
+float:left;
+}
+
+@media (min-width:320px) and (max-width: 479px){
+.Side{
+width:100%;		
+}
+.Main{
+width:100%;
+}
+}
+</style>
+</head>
+<body>
+<div class= "Header">
+<h1>Welcome</h1>
+</div>
+<div class="Side">
+<ul>
+<li>Monday</li>
+<li>Tuesday</li>
+<li>Wednesday</li>
+<li>Thursday</li>
+<li>Friday</li>
+</ul>
+</div>
+<div class= "Main">
+<h1>What to do for the week</h1>
+<p>This are the activities i want to do from Monday to Friday. I want to plan my week to be able to acomplish more.</p>
+</div>
+
+</body>
+</html>
